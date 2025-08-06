@@ -55,9 +55,9 @@
             this.panel15 = new System.Windows.Forms.Panel();
             this.btnOperacoesMobilidade = new System.Windows.Forms.Button();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
+            this.btnpaciente = new System.Windows.Forms.Button();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.button15 = new System.Windows.Forms.Button();
+            this.btndoutor = new System.Windows.Forms.Button();
             this.menuContainer6 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.button16 = new System.Windows.Forms.Button();
@@ -176,7 +176,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
-            this.label1.Location = new System.Drawing.Point(67, 21);
+            this.label1.Location = new System.Drawing.Point(49, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(167, 20);
             this.label1.TabIndex = 2;
@@ -185,7 +185,7 @@
             // btnMenu
             // 
             this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
-            this.btnMenu.Location = new System.Drawing.Point(20, 10);
+            this.btnMenu.Location = new System.Drawing.Point(11, 10);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(32, 41);
             this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -290,7 +290,7 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button8.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.White;
@@ -317,7 +317,7 @@
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button9.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button9.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
@@ -359,6 +359,7 @@
             this.btnFinancas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnFinancas.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFinancas.ForeColor = System.Drawing.Color.White;
+            this.btnFinancas.Image = ((System.Drawing.Image)(resources.GetObject("btnFinancas.Image")));
             this.btnFinancas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFinancas.Location = new System.Drawing.Point(-1, 5);
             this.btnFinancas.Margin = new System.Windows.Forms.Padding(2);
@@ -382,7 +383,7 @@
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button11.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button11.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.White;
@@ -409,7 +410,7 @@
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button12.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button12.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.White;
@@ -451,6 +452,7 @@
             this.btnOperacoesMobilidade.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnOperacoesMobilidade.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOperacoesMobilidade.ForeColor = System.Drawing.Color.White;
+            this.btnOperacoesMobilidade.Image = ((System.Drawing.Image)(resources.GetObject("btnOperacoesMobilidade.Image")));
             this.btnOperacoesMobilidade.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOperacoesMobilidade.Location = new System.Drawing.Point(-1, 5);
             this.btnOperacoesMobilidade.Margin = new System.Windows.Forms.Padding(2);
@@ -464,7 +466,7 @@
             // 
             // panel16
             // 
-            this.panel16.Controls.Add(this.button14);
+            this.panel16.Controls.Add(this.btnpaciente);
             this.panel16.Location = new System.Drawing.Point(0, 85);
             this.panel16.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.panel16.Name = "panel16";
@@ -472,26 +474,26 @@
             this.panel16.Size = new System.Drawing.Size(341, 64);
             this.panel16.TabIndex = 5;
             // 
-            // button14
+            // btnpaciente
             // 
-            this.button14.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button14.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(0, 1);
-            this.button14.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(297, 63);
-            this.button14.TabIndex = 5;
-            this.button14.Text = "                      Pacientes";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.UseVisualStyleBackColor = false;
+            this.btnpaciente.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnpaciente.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnpaciente.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpaciente.ForeColor = System.Drawing.Color.White;
+            this.btnpaciente.Image = ((System.Drawing.Image)(resources.GetObject("btnpaciente.Image")));
+            this.btnpaciente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnpaciente.Location = new System.Drawing.Point(0, 1);
+            this.btnpaciente.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
+            this.btnpaciente.Name = "btnpaciente";
+            this.btnpaciente.Size = new System.Drawing.Size(297, 63);
+            this.btnpaciente.TabIndex = 5;
+            this.btnpaciente.Text = "                      Pacientes";
+            this.btnpaciente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnpaciente.UseVisualStyleBackColor = false;
             // 
             // panel17
             // 
-            this.panel17.Controls.Add(this.button15);
+            this.panel17.Controls.Add(this.btndoutor);
             this.panel17.Location = new System.Drawing.Point(0, 157);
             this.panel17.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.panel17.Name = "panel17";
@@ -499,22 +501,22 @@
             this.panel17.Size = new System.Drawing.Size(341, 66);
             this.panel17.TabIndex = 6;
             // 
-            // button15
+            // btndoutor
             // 
-            this.button15.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button15.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(-1, 1);
-            this.button15.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(286, 64);
-            this.button15.TabIndex = 6;
-            this.button15.Text = "                      Doutores";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.UseVisualStyleBackColor = false;
+            this.btndoutor.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btndoutor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btndoutor.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndoutor.ForeColor = System.Drawing.Color.White;
+            this.btndoutor.Image = ((System.Drawing.Image)(resources.GetObject("btndoutor.Image")));
+            this.btndoutor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndoutor.Location = new System.Drawing.Point(-1, 1);
+            this.btndoutor.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.btndoutor.Name = "btndoutor";
+            this.btndoutor.Size = new System.Drawing.Size(286, 64);
+            this.btndoutor.TabIndex = 6;
+            this.btndoutor.Text = "                      Doutores";
+            this.btndoutor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndoutor.UseVisualStyleBackColor = false;
             // 
             // menuContainer6
             // 
@@ -635,6 +637,7 @@
             this.btnDefinicoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDefinicoes.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDefinicoes.ForeColor = System.Drawing.Color.White;
+            this.btnDefinicoes.Image = ((System.Drawing.Image)(resources.GetObject("btnDefinicoes.Image")));
             this.btnDefinicoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDefinicoes.Location = new System.Drawing.Point(-1, 5);
             this.btnDefinicoes.Margin = new System.Windows.Forms.Padding(2);
@@ -658,7 +661,7 @@
             // 
             // button20
             // 
-            this.button20.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button20.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button20.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.ForeColor = System.Drawing.Color.White;
@@ -685,7 +688,7 @@
             // 
             // button21
             // 
-            this.button21.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button21.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button21.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.ForeColor = System.Drawing.Color.White;
@@ -735,6 +738,7 @@
             this.button22.Text = "                      Terminar Sessão";
             this.button22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button22.UseVisualStyleBackColor = false;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // sidebarTransition
             // 
@@ -808,7 +812,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button3.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
@@ -835,7 +839,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button4.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
@@ -901,7 +905,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button5.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
@@ -928,7 +932,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button6.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
@@ -1120,9 +1124,9 @@
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Button btnOperacoesMobilidade;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button btnpaciente;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button btndoutor;
         private System.Windows.Forms.FlowLayoutPanel menuContainer6;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Button button16;

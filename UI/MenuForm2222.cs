@@ -160,6 +160,13 @@ namespace Hospital97.UI
                 }
             }
         }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm sair = new LoginForm();
+            sair.Show();
+        }
     }
 }
 
