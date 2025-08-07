@@ -296,6 +296,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="UI\ClientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ClientesForm.Designer.cs">
+      <DependentUpon>ClientesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\ClinicaForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -340,6 +346,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ClientesForm.resx">
+      <DependentUpon>ClientesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\ClinicaForm.resx">
       <DependentUpon>ClinicaForm.cs</DependentUpon>
