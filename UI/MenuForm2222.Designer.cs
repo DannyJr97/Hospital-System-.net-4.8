@@ -36,7 +36,21 @@
             this.btnMenu = new System.Windows.Forms.PictureBox();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
+            this.menuContainer1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnClinica = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.menuContainer2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.btnPacientesDoutores = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.btnpacientes = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.btndoutores = new System.Windows.Forms.Button();
             this.menuContainer3 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.btnFarmaciaMedicamentos = new System.Windows.Forms.Button();
@@ -65,6 +79,13 @@
             this.button17 = new System.Windows.Forms.Button();
             this.panel20 = new System.Windows.Forms.Panel();
             this.button18 = new System.Windows.Forms.Button();
+            this.menuContainer7 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
             this.menuContainer8 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel21 = new System.Windows.Forms.Panel();
             this.btnDefinicoes = new System.Windows.Forms.Button();
@@ -80,34 +101,29 @@
             this.MenuTransitionPacientesDoutores = new System.Windows.Forms.Timer(this.components);
             this.MenuTransitionFarmaciaMedicamentos = new System.Windows.Forms.Timer(this.components);
             this.MenuTransitionFinancas = new System.Windows.Forms.Timer(this.components);
-            this.AindaSemFuncao = new System.Windows.Forms.Timer(this.components);
+            this.MenuTransitionAtendimento = new System.Windows.Forms.Timer(this.components);
             this.MenuTransitionDefinicoes = new System.Windows.Forms.Timer(this.components);
             this.MenuOperacoesMobilidade = new System.Windows.Forms.Timer(this.components);
-            this.menuContainer1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnClinica = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.menuContainer2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.btnPacientesDoutores = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.panelCentral = new System.Windows.Forms.Panel();
+            this.menuContainer0 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.btnAtendimento = new System.Windows.Forms.Button();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel30 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.menuContainer7 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.sidebar.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.menuContainer1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.menuContainer2.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.menuContainer3.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
@@ -124,24 +140,20 @@
             this.panel18.SuspendLayout();
             this.panel19.SuspendLayout();
             this.panel20.SuspendLayout();
+            this.menuContainer7.SuspendLayout();
+            this.panel25.SuspendLayout();
+            this.panel26.SuspendLayout();
+            this.panel27.SuspendLayout();
             this.menuContainer8.SuspendLayout();
             this.panel21.SuspendLayout();
             this.panel22.SuspendLayout();
             this.panel23.SuspendLayout();
             this.menuContainer9.SuspendLayout();
             this.panel24.SuspendLayout();
-            this.menuContainer1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.menuContainer2.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.menuContainer7.SuspendLayout();
-            this.panel25.SuspendLayout();
-            this.panel26.SuspendLayout();
-            this.panel27.SuspendLayout();
+            this.menuContainer0.SuspendLayout();
+            this.panel28.SuspendLayout();
+            this.panel29.SuspendLayout();
+            this.panel30.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -154,7 +166,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(989, 68);
+            this.panel1.Size = new System.Drawing.Size(1860, 68);
             this.panel1.TabIndex = 0;
             // 
             // btnFecharMenu
@@ -164,7 +176,7 @@
             this.btnFecharMenu.FillColor = System.Drawing.SystemColors.WindowFrame;
             this.btnFecharMenu.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFecharMenu.IconColor = System.Drawing.Color.White;
-            this.btnFecharMenu.Location = new System.Drawing.Point(931, 12);
+            this.btnFecharMenu.Location = new System.Drawing.Point(1802, 12);
             this.btnFecharMenu.Name = "btnFecharMenu";
             this.btnFecharMenu.Size = new System.Drawing.Size(45, 39);
             this.btnFecharMenu.TabIndex = 1;
@@ -197,6 +209,7 @@
             // 
             this.sidebar.BackColor = System.Drawing.Color.PowderBlue;
             this.sidebar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.sidebar.Controls.Add(this.menuContainer0);
             this.sidebar.Controls.Add(this.panel2);
             this.sidebar.Controls.Add(this.menuContainer1);
             this.sidebar.Controls.Add(this.menuContainer2);
@@ -215,558 +228,37 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(0, 20);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.panel2.Controls.Add(this.btnDashboard);
+            this.panel2.Location = new System.Drawing.Point(0, 88);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.panel2.Size = new System.Drawing.Size(341, 64);
             this.panel2.TabIndex = 3;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(-1, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(286, 64);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "                      Dashboard";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // menuContainer3
-            // 
-            this.menuContainer3.Controls.Add(this.panel9);
-            this.menuContainer3.Controls.Add(this.panel10);
-            this.menuContainer3.Controls.Add(this.panel11);
-            this.menuContainer3.Location = new System.Drawing.Point(0, 250);
-            this.menuContainer3.Margin = new System.Windows.Forms.Padding(0);
-            this.menuContainer3.Name = "menuContainer3";
-            this.menuContainer3.Size = new System.Drawing.Size(301, 83);
-            this.menuContainer3.TabIndex = 6;
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.btnFarmaciaMedicamentos);
-            this.panel9.Location = new System.Drawing.Point(0, 10);
-            this.panel9.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel9.Size = new System.Drawing.Size(341, 70);
-            this.panel9.TabIndex = 4;
-            // 
-            // btnFarmaciaMedicamentos
-            // 
-            this.btnFarmaciaMedicamentos.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnFarmaciaMedicamentos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnFarmaciaMedicamentos.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFarmaciaMedicamentos.ForeColor = System.Drawing.Color.White;
-            this.btnFarmaciaMedicamentos.Image = ((System.Drawing.Image)(resources.GetObject("btnFarmaciaMedicamentos.Image")));
-            this.btnFarmaciaMedicamentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFarmaciaMedicamentos.Location = new System.Drawing.Point(-1, 5);
-            this.btnFarmaciaMedicamentos.Margin = new System.Windows.Forms.Padding(2);
-            this.btnFarmaciaMedicamentos.Name = "btnFarmaciaMedicamentos";
-            this.btnFarmaciaMedicamentos.Size = new System.Drawing.Size(286, 59);
-            this.btnFarmaciaMedicamentos.TabIndex = 2;
-            this.btnFarmaciaMedicamentos.Text = "                      Farmácia e Medicamentos";
-            this.btnFarmaciaMedicamentos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFarmaciaMedicamentos.UseVisualStyleBackColor = false;
-            this.btnFarmaciaMedicamentos.Click += new System.EventHandler(this.btnFarmaciaMedicamentos_Click);
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.button8);
-            this.panel10.Location = new System.Drawing.Point(0, 85);
-            this.panel10.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel10.Size = new System.Drawing.Size(341, 64);
-            this.panel10.TabIndex = 5;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(0, 1);
-            this.button8.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(297, 63);
-            this.button8.TabIndex = 5;
-            this.button8.Text = "                      Pacientes";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.button9);
-            this.panel11.Location = new System.Drawing.Point(0, 157);
-            this.panel11.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel11.Size = new System.Drawing.Size(341, 66);
-            this.panel11.TabIndex = 6;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(-1, 1);
-            this.button9.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(286, 64);
-            this.button9.TabIndex = 6;
-            this.button9.Text = "                      Doutores";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // menuContainer4
-            // 
-            this.menuContainer4.Controls.Add(this.panel12);
-            this.menuContainer4.Controls.Add(this.panel13);
-            this.menuContainer4.Controls.Add(this.panel14);
-            this.menuContainer4.Location = new System.Drawing.Point(0, 333);
-            this.menuContainer4.Margin = new System.Windows.Forms.Padding(0);
-            this.menuContainer4.Name = "menuContainer4";
-            this.menuContainer4.Size = new System.Drawing.Size(301, 83);
-            this.menuContainer4.TabIndex = 7;
-            // 
-            // panel12
-            // 
-            this.panel12.Controls.Add(this.btnFinancas);
-            this.panel12.Location = new System.Drawing.Point(0, 10);
-            this.panel12.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.panel12.Name = "panel12";
-            this.panel12.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel12.Size = new System.Drawing.Size(341, 70);
-            this.panel12.TabIndex = 4;
-            // 
-            // btnFinancas
-            // 
-            this.btnFinancas.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnFinancas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnFinancas.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFinancas.ForeColor = System.Drawing.Color.White;
-            this.btnFinancas.Image = ((System.Drawing.Image)(resources.GetObject("btnFinancas.Image")));
-            this.btnFinancas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFinancas.Location = new System.Drawing.Point(-1, 5);
-            this.btnFinancas.Margin = new System.Windows.Forms.Padding(2);
-            this.btnFinancas.Name = "btnFinancas";
-            this.btnFinancas.Size = new System.Drawing.Size(286, 59);
-            this.btnFinancas.TabIndex = 2;
-            this.btnFinancas.Text = "                      Finanças";
-            this.btnFinancas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFinancas.UseVisualStyleBackColor = false;
-            this.btnFinancas.Click += new System.EventHandler(this.btnFinancas_Click_1);
-            // 
-            // panel13
-            // 
-            this.panel13.Controls.Add(this.button11);
-            this.panel13.Location = new System.Drawing.Point(0, 85);
-            this.panel13.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel13.Name = "panel13";
-            this.panel13.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel13.Size = new System.Drawing.Size(341, 64);
-            this.panel13.TabIndex = 5;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(0, 1);
-            this.button11.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(297, 63);
-            this.button11.TabIndex = 5;
-            this.button11.Text = "                      Pacientes";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // panel14
-            // 
-            this.panel14.Controls.Add(this.button12);
-            this.panel14.Location = new System.Drawing.Point(0, 157);
-            this.panel14.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.panel14.Name = "panel14";
-            this.panel14.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel14.Size = new System.Drawing.Size(341, 66);
-            this.panel14.TabIndex = 6;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button12.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.Location = new System.Drawing.Point(-1, 1);
-            this.button12.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(286, 64);
-            this.button12.TabIndex = 6;
-            this.button12.Text = "                      Doutores";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // menuContainer5
-            // 
-            this.menuContainer5.Controls.Add(this.panel15);
-            this.menuContainer5.Controls.Add(this.panel16);
-            this.menuContainer5.Controls.Add(this.panel17);
-            this.menuContainer5.Location = new System.Drawing.Point(0, 416);
-            this.menuContainer5.Margin = new System.Windows.Forms.Padding(0);
-            this.menuContainer5.Name = "menuContainer5";
-            this.menuContainer5.Size = new System.Drawing.Size(301, 83);
-            this.menuContainer5.TabIndex = 8;
-            // 
-            // panel15
-            // 
-            this.panel15.Controls.Add(this.btnOperacoesMobilidade);
-            this.panel15.Location = new System.Drawing.Point(0, 10);
-            this.panel15.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.panel15.Name = "panel15";
-            this.panel15.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel15.Size = new System.Drawing.Size(341, 70);
-            this.panel15.TabIndex = 4;
-            // 
-            // btnOperacoesMobilidade
-            // 
-            this.btnOperacoesMobilidade.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnOperacoesMobilidade.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnOperacoesMobilidade.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOperacoesMobilidade.ForeColor = System.Drawing.Color.White;
-            this.btnOperacoesMobilidade.Image = ((System.Drawing.Image)(resources.GetObject("btnOperacoesMobilidade.Image")));
-            this.btnOperacoesMobilidade.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOperacoesMobilidade.Location = new System.Drawing.Point(-1, 5);
-            this.btnOperacoesMobilidade.Margin = new System.Windows.Forms.Padding(2);
-            this.btnOperacoesMobilidade.Name = "btnOperacoesMobilidade";
-            this.btnOperacoesMobilidade.Size = new System.Drawing.Size(286, 59);
-            this.btnOperacoesMobilidade.TabIndex = 2;
-            this.btnOperacoesMobilidade.Text = "                      Operações e Mobilidade";
-            this.btnOperacoesMobilidade.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOperacoesMobilidade.UseVisualStyleBackColor = false;
-            this.btnOperacoesMobilidade.Click += new System.EventHandler(this.btnOperacoesMobilidade_Click);
-            // 
-            // panel16
-            // 
-            this.panel16.Controls.Add(this.btnpaciente);
-            this.panel16.Location = new System.Drawing.Point(0, 85);
-            this.panel16.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel16.Name = "panel16";
-            this.panel16.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel16.Size = new System.Drawing.Size(341, 64);
-            this.panel16.TabIndex = 5;
-            // 
-            // btnpaciente
-            // 
-            this.btnpaciente.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btnpaciente.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnpaciente.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnpaciente.ForeColor = System.Drawing.Color.White;
-            this.btnpaciente.Image = ((System.Drawing.Image)(resources.GetObject("btnpaciente.Image")));
-            this.btnpaciente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnpaciente.Location = new System.Drawing.Point(0, 1);
-            this.btnpaciente.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
-            this.btnpaciente.Name = "btnpaciente";
-            this.btnpaciente.Size = new System.Drawing.Size(297, 63);
-            this.btnpaciente.TabIndex = 5;
-            this.btnpaciente.Text = "                      Pacientes";
-            this.btnpaciente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnpaciente.UseVisualStyleBackColor = false;
-            // 
-            // panel17
-            // 
-            this.panel17.Controls.Add(this.btndoutor);
-            this.panel17.Location = new System.Drawing.Point(0, 157);
-            this.panel17.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.panel17.Name = "panel17";
-            this.panel17.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel17.Size = new System.Drawing.Size(341, 66);
-            this.panel17.TabIndex = 6;
-            // 
-            // btndoutor
-            // 
-            this.btndoutor.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btndoutor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btndoutor.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndoutor.ForeColor = System.Drawing.Color.White;
-            this.btndoutor.Image = ((System.Drawing.Image)(resources.GetObject("btndoutor.Image")));
-            this.btndoutor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btndoutor.Location = new System.Drawing.Point(-1, 1);
-            this.btndoutor.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.btndoutor.Name = "btndoutor";
-            this.btndoutor.Size = new System.Drawing.Size(286, 64);
-            this.btndoutor.TabIndex = 6;
-            this.btndoutor.Text = "                      Doutores";
-            this.btndoutor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btndoutor.UseVisualStyleBackColor = false;
-            // 
-            // menuContainer6
-            // 
-            this.menuContainer6.Controls.Add(this.panel18);
-            this.menuContainer6.Controls.Add(this.panel19);
-            this.menuContainer6.Controls.Add(this.panel20);
-            this.menuContainer6.Location = new System.Drawing.Point(0, 499);
-            this.menuContainer6.Margin = new System.Windows.Forms.Padding(0);
-            this.menuContainer6.Name = "menuContainer6";
-            this.menuContainer6.Size = new System.Drawing.Size(301, 83);
-            this.menuContainer6.TabIndex = 9;
-            // 
-            // panel18
-            // 
-            this.panel18.Controls.Add(this.button16);
-            this.panel18.Location = new System.Drawing.Point(0, 10);
-            this.panel18.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.panel18.Name = "panel18";
-            this.panel18.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel18.Size = new System.Drawing.Size(341, 70);
-            this.panel18.TabIndex = 4;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button16.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
-            this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.Location = new System.Drawing.Point(-1, 5);
-            this.button16.Margin = new System.Windows.Forms.Padding(2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(286, 59);
-            this.button16.TabIndex = 2;
-            this.button16.Text = "                      Por vir...";
-            this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // panel19
-            // 
-            this.panel19.Controls.Add(this.button17);
-            this.panel19.Location = new System.Drawing.Point(0, 85);
-            this.panel19.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel19.Name = "panel19";
-            this.panel19.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel19.Size = new System.Drawing.Size(341, 64);
-            this.panel19.TabIndex = 5;
-            // 
-            // button17
-            // 
-            this.button17.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button17.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
-            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button17.Location = new System.Drawing.Point(0, 1);
-            this.button17.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(297, 63);
-            this.button17.TabIndex = 5;
-            this.button17.Text = "                      Pacientes";
-            this.button17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button17.UseVisualStyleBackColor = false;
-            // 
-            // panel20
-            // 
-            this.panel20.Controls.Add(this.button18);
-            this.panel20.Location = new System.Drawing.Point(0, 157);
-            this.panel20.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.panel20.Name = "panel20";
-            this.panel20.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel20.Size = new System.Drawing.Size(341, 66);
-            this.panel20.TabIndex = 6;
-            // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button18.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
-            this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button18.Location = new System.Drawing.Point(-1, 1);
-            this.button18.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(286, 64);
-            this.button18.TabIndex = 6;
-            this.button18.Text = "                      Doutores";
-            this.button18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button18.UseVisualStyleBackColor = false;
-            // 
-            // menuContainer8
-            // 
-            this.menuContainer8.Controls.Add(this.panel21);
-            this.menuContainer8.Controls.Add(this.panel22);
-            this.menuContainer8.Controls.Add(this.panel23);
-            this.menuContainer8.Location = new System.Drawing.Point(0, 665);
-            this.menuContainer8.Margin = new System.Windows.Forms.Padding(0);
-            this.menuContainer8.Name = "menuContainer8";
-            this.menuContainer8.Size = new System.Drawing.Size(301, 83);
-            this.menuContainer8.TabIndex = 10;
-            // 
-            // panel21
-            // 
-            this.panel21.Controls.Add(this.btnDefinicoes);
-            this.panel21.Location = new System.Drawing.Point(0, 10);
-            this.panel21.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.panel21.Name = "panel21";
-            this.panel21.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel21.Size = new System.Drawing.Size(341, 70);
-            this.panel21.TabIndex = 4;
-            // 
-            // btnDefinicoes
-            // 
-            this.btnDefinicoes.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnDefinicoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnDefinicoes.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDefinicoes.ForeColor = System.Drawing.Color.White;
-            this.btnDefinicoes.Image = ((System.Drawing.Image)(resources.GetObject("btnDefinicoes.Image")));
-            this.btnDefinicoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDefinicoes.Location = new System.Drawing.Point(-1, 5);
-            this.btnDefinicoes.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDefinicoes.Name = "btnDefinicoes";
-            this.btnDefinicoes.Size = new System.Drawing.Size(286, 59);
-            this.btnDefinicoes.TabIndex = 2;
-            this.btnDefinicoes.Text = "                      Definições";
-            this.btnDefinicoes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDefinicoes.UseVisualStyleBackColor = false;
-            this.btnDefinicoes.Click += new System.EventHandler(this.btnDefinicoes_Click_2);
-            // 
-            // panel22
-            // 
-            this.panel22.Controls.Add(this.button20);
-            this.panel22.Location = new System.Drawing.Point(0, 85);
-            this.panel22.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel22.Name = "panel22";
-            this.panel22.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel22.Size = new System.Drawing.Size(341, 64);
-            this.panel22.TabIndex = 5;
-            // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button20.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
-            this.button20.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button20.Location = new System.Drawing.Point(0, 1);
-            this.button20.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(297, 63);
-            this.button20.TabIndex = 5;
-            this.button20.Text = "                      Pacientes";
-            this.button20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button20.UseVisualStyleBackColor = false;
-            // 
-            // panel23
-            // 
-            this.panel23.Controls.Add(this.button21);
-            this.panel23.Location = new System.Drawing.Point(0, 157);
-            this.panel23.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.panel23.Name = "panel23";
-            this.panel23.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel23.Size = new System.Drawing.Size(341, 66);
-            this.panel23.TabIndex = 6;
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button21.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
-            this.button21.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button21.Location = new System.Drawing.Point(-1, 1);
-            this.button21.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(286, 64);
-            this.button21.TabIndex = 6;
-            this.button21.Text = "                      Doutores";
-            this.button21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button21.UseVisualStyleBackColor = false;
-            // 
-            // menuContainer9
-            // 
-            this.menuContainer9.Controls.Add(this.panel24);
-            this.menuContainer9.Location = new System.Drawing.Point(0, 748);
-            this.menuContainer9.Margin = new System.Windows.Forms.Padding(0);
-            this.menuContainer9.Name = "menuContainer9";
-            this.menuContainer9.Size = new System.Drawing.Size(301, 83);
-            this.menuContainer9.TabIndex = 11;
-            // 
-            // panel24
-            // 
-            this.panel24.Controls.Add(this.button22);
-            this.panel24.Location = new System.Drawing.Point(0, 10);
-            this.panel24.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.panel24.Name = "panel24";
-            this.panel24.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.panel24.Size = new System.Drawing.Size(341, 70);
-            this.panel24.TabIndex = 4;
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button22.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.ForeColor = System.Drawing.Color.White;
-            this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
-            this.button22.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button22.Location = new System.Drawing.Point(-1, 5);
-            this.button22.Margin = new System.Windows.Forms.Padding(2);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(286, 59);
-            this.button22.TabIndex = 2;
-            this.button22.Text = "                      Terminar Sessão";
-            this.button22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button22.UseVisualStyleBackColor = false;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
-            // 
-            // sidebarTransition
-            // 
-            this.sidebarTransition.Interval = 10;
-            this.sidebarTransition.Tick += new System.EventHandler(this.sidebarTransition_Tick);
-            // 
-            // MenuTransitionFarmaciaMedicamentos
-            // 
-            this.MenuTransitionFarmaciaMedicamentos.Tick += new System.EventHandler(this.MenuTransitionFarmaciaMedicamentos_Tick);
-            // 
-            // MenuTransitionFinancas
-            // 
-            this.MenuTransitionFinancas.Tick += new System.EventHandler(this.MenuTransitionFinancas_Tick);
-            // 
-            // MenuTransitionDefinicoes
-            // 
-            this.MenuTransitionDefinicoes.Tick += new System.EventHandler(this.MenuTransitionDefinicoes_Tick);
-            // 
-            // MenuOperacoesMobilidade
-            // 
-            this.MenuOperacoesMobilidade.Tick += new System.EventHandler(this.MenuOperacoesMobilidade_Tick);
+            // btnDashboard
+            // 
+            this.btnDashboard.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDashboard.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.White;
+            this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
+            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.Location = new System.Drawing.Point(-1, 3);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(286, 61);
+            this.btnDashboard.TabIndex = 2;
+            this.btnDashboard.Text = "                      Dashboard";
+            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDashboard.UseVisualStyleBackColor = false;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // menuContainer1
             // 
             this.menuContainer1.Controls.Add(this.panel3);
             this.menuContainer1.Controls.Add(this.panel4);
             this.menuContainer1.Controls.Add(this.panel5);
-            this.menuContainer1.Location = new System.Drawing.Point(0, 84);
+            this.menuContainer1.Location = new System.Drawing.Point(0, 152);
             this.menuContainer1.Margin = new System.Windows.Forms.Padding(0);
             this.menuContainer1.Name = "menuContainer1";
             this.menuContainer1.Size = new System.Drawing.Size(301, 83);
@@ -859,7 +351,7 @@
             this.menuContainer2.Controls.Add(this.panel6);
             this.menuContainer2.Controls.Add(this.panel7);
             this.menuContainer2.Controls.Add(this.panel8);
-            this.menuContainer2.Location = new System.Drawing.Point(0, 167);
+            this.menuContainer2.Location = new System.Drawing.Point(0, 235);
             this.menuContainer2.Margin = new System.Windows.Forms.Padding(0);
             this.menuContainer2.Name = "menuContainer2";
             this.menuContainer2.Size = new System.Drawing.Size(301, 83);
@@ -895,7 +387,7 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.button5);
+            this.panel7.Controls.Add(this.btnpacientes);
             this.panel7.Location = new System.Drawing.Point(0, 85);
             this.panel7.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.panel7.Name = "panel7";
@@ -903,26 +395,27 @@
             this.panel7.Size = new System.Drawing.Size(341, 64);
             this.panel7.TabIndex = 5;
             // 
-            // button5
+            // btnpacientes
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 1);
-            this.button5.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(297, 63);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "                      Pacientes";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnpacientes.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnpacientes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnpacientes.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpacientes.ForeColor = System.Drawing.Color.White;
+            this.btnpacientes.Image = ((System.Drawing.Image)(resources.GetObject("btnpacientes.Image")));
+            this.btnpacientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnpacientes.Location = new System.Drawing.Point(0, 1);
+            this.btnpacientes.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
+            this.btnpacientes.Name = "btnpacientes";
+            this.btnpacientes.Size = new System.Drawing.Size(297, 63);
+            this.btnpacientes.TabIndex = 5;
+            this.btnpacientes.Text = "                      Pacientes";
+            this.btnpacientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnpacientes.UseVisualStyleBackColor = false;
+            this.btnpacientes.Click += new System.EventHandler(this.btnpacientes_Click);
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.button6);
+            this.panel8.Controls.Add(this.btndoutores);
             this.panel8.Location = new System.Drawing.Point(0, 157);
             this.panel8.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.panel8.Name = "panel8";
@@ -930,29 +423,401 @@
             this.panel8.Size = new System.Drawing.Size(341, 66);
             this.panel8.TabIndex = 6;
             // 
-            // button6
+            // btndoutores
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(-1, 1);
-            this.button6.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(286, 64);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "                      Doutores";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = false;
+            this.btndoutores.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btndoutores.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btndoutores.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndoutores.ForeColor = System.Drawing.Color.White;
+            this.btndoutores.Image = ((System.Drawing.Image)(resources.GetObject("btndoutores.Image")));
+            this.btndoutores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndoutores.Location = new System.Drawing.Point(-1, 1);
+            this.btndoutores.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.btndoutores.Name = "btndoutores";
+            this.btndoutores.Size = new System.Drawing.Size(286, 64);
+            this.btndoutores.TabIndex = 6;
+            this.btndoutores.Text = "                      Doutores";
+            this.btndoutores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndoutores.UseVisualStyleBackColor = false;
+            this.btndoutores.Click += new System.EventHandler(this.btndoutores_Click);
+            // 
+            // menuContainer3
+            // 
+            this.menuContainer3.Controls.Add(this.panel9);
+            this.menuContainer3.Controls.Add(this.panel10);
+            this.menuContainer3.Controls.Add(this.panel11);
+            this.menuContainer3.Location = new System.Drawing.Point(0, 318);
+            this.menuContainer3.Margin = new System.Windows.Forms.Padding(0);
+            this.menuContainer3.Name = "menuContainer3";
+            this.menuContainer3.Size = new System.Drawing.Size(301, 83);
+            this.menuContainer3.TabIndex = 6;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.btnFarmaciaMedicamentos);
+            this.panel9.Location = new System.Drawing.Point(0, 10);
+            this.panel9.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel9.Size = new System.Drawing.Size(341, 70);
+            this.panel9.TabIndex = 4;
+            // 
+            // btnFarmaciaMedicamentos
+            // 
+            this.btnFarmaciaMedicamentos.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnFarmaciaMedicamentos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFarmaciaMedicamentos.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFarmaciaMedicamentos.ForeColor = System.Drawing.Color.White;
+            this.btnFarmaciaMedicamentos.Image = ((System.Drawing.Image)(resources.GetObject("btnFarmaciaMedicamentos.Image")));
+            this.btnFarmaciaMedicamentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFarmaciaMedicamentos.Location = new System.Drawing.Point(-1, 5);
+            this.btnFarmaciaMedicamentos.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFarmaciaMedicamentos.Name = "btnFarmaciaMedicamentos";
+            this.btnFarmaciaMedicamentos.Size = new System.Drawing.Size(286, 59);
+            this.btnFarmaciaMedicamentos.TabIndex = 2;
+            this.btnFarmaciaMedicamentos.Text = "                      Farmácia e Medicamentos";
+            this.btnFarmaciaMedicamentos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFarmaciaMedicamentos.UseVisualStyleBackColor = false;
+            this.btnFarmaciaMedicamentos.Click += new System.EventHandler(this.btnFarmaciaMedicamentos_Click);
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.button8);
+            this.panel10.Location = new System.Drawing.Point(0, 85);
+            this.panel10.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel10.Size = new System.Drawing.Size(341, 64);
+            this.panel10.TabIndex = 5;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button8.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.Location = new System.Drawing.Point(0, 1);
+            this.button8.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(297, 63);
+            this.button8.TabIndex = 5;
+            this.button8.Text = "                      Pacientes";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.button9);
+            this.panel11.Location = new System.Drawing.Point(0, 157);
+            this.panel11.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel11.Size = new System.Drawing.Size(341, 66);
+            this.panel11.TabIndex = 6;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button9.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.Location = new System.Drawing.Point(-1, 1);
+            this.button9.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(286, 64);
+            this.button9.TabIndex = 6;
+            this.button9.Text = "                      Doutores";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // menuContainer4
+            // 
+            this.menuContainer4.Controls.Add(this.panel12);
+            this.menuContainer4.Controls.Add(this.panel13);
+            this.menuContainer4.Controls.Add(this.panel14);
+            this.menuContainer4.Location = new System.Drawing.Point(0, 401);
+            this.menuContainer4.Margin = new System.Windows.Forms.Padding(0);
+            this.menuContainer4.Name = "menuContainer4";
+            this.menuContainer4.Size = new System.Drawing.Size(301, 83);
+            this.menuContainer4.TabIndex = 7;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.btnFinancas);
+            this.panel12.Location = new System.Drawing.Point(0, 10);
+            this.panel12.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.panel12.Name = "panel12";
+            this.panel12.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel12.Size = new System.Drawing.Size(341, 70);
+            this.panel12.TabIndex = 4;
+            // 
+            // btnFinancas
+            // 
+            this.btnFinancas.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnFinancas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFinancas.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinancas.ForeColor = System.Drawing.Color.White;
+            this.btnFinancas.Image = ((System.Drawing.Image)(resources.GetObject("btnFinancas.Image")));
+            this.btnFinancas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFinancas.Location = new System.Drawing.Point(-1, 5);
+            this.btnFinancas.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFinancas.Name = "btnFinancas";
+            this.btnFinancas.Size = new System.Drawing.Size(286, 59);
+            this.btnFinancas.TabIndex = 2;
+            this.btnFinancas.Text = "                      Finanças";
+            this.btnFinancas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFinancas.UseVisualStyleBackColor = false;
+            this.btnFinancas.Click += new System.EventHandler(this.btnFinancas_Click_1);
+            // 
+            // panel13
+            // 
+            this.panel13.Controls.Add(this.button11);
+            this.panel13.Location = new System.Drawing.Point(0, 85);
+            this.panel13.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel13.Name = "panel13";
+            this.panel13.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel13.Size = new System.Drawing.Size(341, 64);
+            this.panel13.TabIndex = 5;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button11.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.Location = new System.Drawing.Point(0, 1);
+            this.button11.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(297, 63);
+            this.button11.TabIndex = 5;
+            this.button11.Text = "                      Pacientes";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.button12);
+            this.panel14.Location = new System.Drawing.Point(0, 157);
+            this.panel14.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
+            this.panel14.Name = "panel14";
+            this.panel14.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel14.Size = new System.Drawing.Size(341, 66);
+            this.panel14.TabIndex = 6;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button12.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
+            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.Location = new System.Drawing.Point(-1, 1);
+            this.button12.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(286, 64);
+            this.button12.TabIndex = 6;
+            this.button12.Text = "                      Doutores";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // menuContainer5
+            // 
+            this.menuContainer5.Controls.Add(this.panel15);
+            this.menuContainer5.Controls.Add(this.panel16);
+            this.menuContainer5.Controls.Add(this.panel17);
+            this.menuContainer5.Location = new System.Drawing.Point(0, 484);
+            this.menuContainer5.Margin = new System.Windows.Forms.Padding(0);
+            this.menuContainer5.Name = "menuContainer5";
+            this.menuContainer5.Size = new System.Drawing.Size(301, 83);
+            this.menuContainer5.TabIndex = 8;
+            // 
+            // panel15
+            // 
+            this.panel15.Controls.Add(this.btnOperacoesMobilidade);
+            this.panel15.Location = new System.Drawing.Point(0, 10);
+            this.panel15.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.panel15.Name = "panel15";
+            this.panel15.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel15.Size = new System.Drawing.Size(341, 70);
+            this.panel15.TabIndex = 4;
+            // 
+            // btnOperacoesMobilidade
+            // 
+            this.btnOperacoesMobilidade.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnOperacoesMobilidade.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOperacoesMobilidade.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOperacoesMobilidade.ForeColor = System.Drawing.Color.White;
+            this.btnOperacoesMobilidade.Image = ((System.Drawing.Image)(resources.GetObject("btnOperacoesMobilidade.Image")));
+            this.btnOperacoesMobilidade.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOperacoesMobilidade.Location = new System.Drawing.Point(-1, 5);
+            this.btnOperacoesMobilidade.Margin = new System.Windows.Forms.Padding(2);
+            this.btnOperacoesMobilidade.Name = "btnOperacoesMobilidade";
+            this.btnOperacoesMobilidade.Size = new System.Drawing.Size(286, 59);
+            this.btnOperacoesMobilidade.TabIndex = 2;
+            this.btnOperacoesMobilidade.Text = "                      Operações e Mobilidade";
+            this.btnOperacoesMobilidade.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOperacoesMobilidade.UseVisualStyleBackColor = false;
+            this.btnOperacoesMobilidade.Click += new System.EventHandler(this.btnOperacoesMobilidade_Click);
+            // 
+            // panel16
+            // 
+            this.panel16.Controls.Add(this.btnpaciente);
+            this.panel16.Location = new System.Drawing.Point(0, 85);
+            this.panel16.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel16.Name = "panel16";
+            this.panel16.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel16.Size = new System.Drawing.Size(341, 64);
+            this.panel16.TabIndex = 5;
+            // 
+            // btnpaciente
+            // 
+            this.btnpaciente.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnpaciente.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnpaciente.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpaciente.ForeColor = System.Drawing.Color.White;
+            this.btnpaciente.Image = ((System.Drawing.Image)(resources.GetObject("btnpaciente.Image")));
+            this.btnpaciente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnpaciente.Location = new System.Drawing.Point(0, 1);
+            this.btnpaciente.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
+            this.btnpaciente.Name = "btnpaciente";
+            this.btnpaciente.Size = new System.Drawing.Size(297, 63);
+            this.btnpaciente.TabIndex = 5;
+            this.btnpaciente.Text = "                      Pacientes";
+            this.btnpaciente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnpaciente.UseVisualStyleBackColor = false;
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.btndoutor);
+            this.panel17.Location = new System.Drawing.Point(0, 157);
+            this.panel17.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
+            this.panel17.Name = "panel17";
+            this.panel17.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel17.Size = new System.Drawing.Size(341, 66);
+            this.panel17.TabIndex = 6;
+            // 
+            // btndoutor
+            // 
+            this.btndoutor.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btndoutor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btndoutor.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndoutor.ForeColor = System.Drawing.Color.White;
+            this.btndoutor.Image = ((System.Drawing.Image)(resources.GetObject("btndoutor.Image")));
+            this.btndoutor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndoutor.Location = new System.Drawing.Point(-1, 1);
+            this.btndoutor.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.btndoutor.Name = "btndoutor";
+            this.btndoutor.Size = new System.Drawing.Size(286, 64);
+            this.btndoutor.TabIndex = 6;
+            this.btndoutor.Text = "                      Doutores";
+            this.btndoutor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btndoutor.UseVisualStyleBackColor = false;
+            // 
+            // menuContainer6
+            // 
+            this.menuContainer6.Controls.Add(this.panel18);
+            this.menuContainer6.Controls.Add(this.panel19);
+            this.menuContainer6.Controls.Add(this.panel20);
+            this.menuContainer6.Location = new System.Drawing.Point(0, 567);
+            this.menuContainer6.Margin = new System.Windows.Forms.Padding(0);
+            this.menuContainer6.Name = "menuContainer6";
+            this.menuContainer6.Size = new System.Drawing.Size(301, 83);
+            this.menuContainer6.TabIndex = 9;
+            // 
+            // panel18
+            // 
+            this.panel18.Controls.Add(this.button16);
+            this.panel18.Location = new System.Drawing.Point(0, 10);
+            this.panel18.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.panel18.Name = "panel18";
+            this.panel18.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel18.Size = new System.Drawing.Size(341, 70);
+            this.panel18.TabIndex = 4;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button16.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.ForeColor = System.Drawing.Color.White;
+            this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
+            this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button16.Location = new System.Drawing.Point(-1, 5);
+            this.button16.Margin = new System.Windows.Forms.Padding(2);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(286, 59);
+            this.button16.TabIndex = 2;
+            this.button16.Text = "                      Por vir...";
+            this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // panel19
+            // 
+            this.panel19.Controls.Add(this.button17);
+            this.panel19.Location = new System.Drawing.Point(0, 85);
+            this.panel19.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel19.Name = "panel19";
+            this.panel19.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel19.Size = new System.Drawing.Size(341, 64);
+            this.panel19.TabIndex = 5;
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button17.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.ForeColor = System.Drawing.Color.White;
+            this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
+            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button17.Location = new System.Drawing.Point(0, 1);
+            this.button17.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(297, 63);
+            this.button17.TabIndex = 5;
+            this.button17.Text = "                      Pacientes";
+            this.button17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button17.UseVisualStyleBackColor = false;
+            // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.button18);
+            this.panel20.Location = new System.Drawing.Point(0, 157);
+            this.panel20.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
+            this.panel20.Name = "panel20";
+            this.panel20.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel20.Size = new System.Drawing.Size(341, 66);
+            this.panel20.TabIndex = 6;
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button18.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
+            this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button18.Location = new System.Drawing.Point(-1, 1);
+            this.button18.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(286, 64);
+            this.button18.TabIndex = 6;
+            this.button18.Text = "                      Doutores";
+            this.button18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button18.UseVisualStyleBackColor = false;
             // 
             // menuContainer7
             // 
             this.menuContainer7.Controls.Add(this.panel25);
             this.menuContainer7.Controls.Add(this.panel26);
             this.menuContainer7.Controls.Add(this.panel27);
-            this.menuContainer7.Location = new System.Drawing.Point(0, 582);
+            this.menuContainer7.Location = new System.Drawing.Point(0, 650);
             this.menuContainer7.Margin = new System.Windows.Forms.Padding(0);
             this.menuContainer7.Name = "menuContainer7";
             this.menuContainer7.Size = new System.Drawing.Size(301, 83);
@@ -1039,11 +904,265 @@
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button13.UseVisualStyleBackColor = false;
             // 
+            // menuContainer8
+            // 
+            this.menuContainer8.Controls.Add(this.panel21);
+            this.menuContainer8.Controls.Add(this.panel22);
+            this.menuContainer8.Controls.Add(this.panel23);
+            this.menuContainer8.Location = new System.Drawing.Point(0, 733);
+            this.menuContainer8.Margin = new System.Windows.Forms.Padding(0);
+            this.menuContainer8.Name = "menuContainer8";
+            this.menuContainer8.Size = new System.Drawing.Size(301, 83);
+            this.menuContainer8.TabIndex = 10;
+            // 
+            // panel21
+            // 
+            this.panel21.Controls.Add(this.btnDefinicoes);
+            this.panel21.Location = new System.Drawing.Point(0, 10);
+            this.panel21.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.panel21.Name = "panel21";
+            this.panel21.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel21.Size = new System.Drawing.Size(341, 70);
+            this.panel21.TabIndex = 4;
+            // 
+            // btnDefinicoes
+            // 
+            this.btnDefinicoes.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnDefinicoes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDefinicoes.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDefinicoes.ForeColor = System.Drawing.Color.White;
+            this.btnDefinicoes.Image = ((System.Drawing.Image)(resources.GetObject("btnDefinicoes.Image")));
+            this.btnDefinicoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDefinicoes.Location = new System.Drawing.Point(-1, 5);
+            this.btnDefinicoes.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDefinicoes.Name = "btnDefinicoes";
+            this.btnDefinicoes.Size = new System.Drawing.Size(286, 59);
+            this.btnDefinicoes.TabIndex = 2;
+            this.btnDefinicoes.Text = "                      Definições";
+            this.btnDefinicoes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDefinicoes.UseVisualStyleBackColor = false;
+            this.btnDefinicoes.Click += new System.EventHandler(this.btnDefinicoes_Click_2);
+            // 
+            // panel22
+            // 
+            this.panel22.Controls.Add(this.button20);
+            this.panel22.Location = new System.Drawing.Point(0, 85);
+            this.panel22.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel22.Name = "panel22";
+            this.panel22.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel22.Size = new System.Drawing.Size(341, 64);
+            this.panel22.TabIndex = 5;
+            // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button20.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button20.ForeColor = System.Drawing.Color.White;
+            this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
+            this.button20.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button20.Location = new System.Drawing.Point(0, 1);
+            this.button20.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(297, 63);
+            this.button20.TabIndex = 5;
+            this.button20.Text = "                      Pacientes";
+            this.button20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button20.UseVisualStyleBackColor = false;
+            // 
+            // panel23
+            // 
+            this.panel23.Controls.Add(this.button21);
+            this.panel23.Location = new System.Drawing.Point(0, 157);
+            this.panel23.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
+            this.panel23.Name = "panel23";
+            this.panel23.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel23.Size = new System.Drawing.Size(341, 66);
+            this.panel23.TabIndex = 6;
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button21.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button21.ForeColor = System.Drawing.Color.White;
+            this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
+            this.button21.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button21.Location = new System.Drawing.Point(-1, 1);
+            this.button21.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(286, 64);
+            this.button21.TabIndex = 6;
+            this.button21.Text = "                      Doutores";
+            this.button21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button21.UseVisualStyleBackColor = false;
+            // 
+            // menuContainer9
+            // 
+            this.menuContainer9.Controls.Add(this.panel24);
+            this.menuContainer9.Location = new System.Drawing.Point(0, 816);
+            this.menuContainer9.Margin = new System.Windows.Forms.Padding(0);
+            this.menuContainer9.Name = "menuContainer9";
+            this.menuContainer9.Size = new System.Drawing.Size(301, 83);
+            this.menuContainer9.TabIndex = 11;
+            // 
+            // panel24
+            // 
+            this.panel24.Controls.Add(this.button22);
+            this.panel24.Location = new System.Drawing.Point(0, 10);
+            this.panel24.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.panel24.Name = "panel24";
+            this.panel24.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel24.Size = new System.Drawing.Size(341, 70);
+            this.panel24.TabIndex = 4;
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button22.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button22.ForeColor = System.Drawing.Color.White;
+            this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
+            this.button22.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button22.Location = new System.Drawing.Point(-1, 5);
+            this.button22.Margin = new System.Windows.Forms.Padding(2);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(286, 59);
+            this.button22.TabIndex = 2;
+            this.button22.Text = "                      Terminar Sessão";
+            this.button22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button22.UseVisualStyleBackColor = false;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
+            // 
+            // sidebarTransition
+            // 
+            this.sidebarTransition.Interval = 10;
+            this.sidebarTransition.Tick += new System.EventHandler(this.sidebarTransition_Tick);
+            // 
+            // MenuTransitionFarmaciaMedicamentos
+            // 
+            this.MenuTransitionFarmaciaMedicamentos.Tick += new System.EventHandler(this.MenuTransitionFarmaciaMedicamentos_Tick);
+            // 
+            // MenuTransitionFinancas
+            // 
+            this.MenuTransitionFinancas.Tick += new System.EventHandler(this.MenuTransitionFinancas_Tick);
+            // 
+            // MenuTransitionDefinicoes
+            // 
+            this.MenuTransitionDefinicoes.Tick += new System.EventHandler(this.MenuTransitionDefinicoes_Tick);
+            // 
+            // MenuOperacoesMobilidade
+            // 
+            this.MenuOperacoesMobilidade.Tick += new System.EventHandler(this.MenuOperacoesMobilidade_Tick);
+            // 
+            // panelCentral
+            // 
+            this.panelCentral.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCentral.Location = new System.Drawing.Point(254, 68);
+            this.panelCentral.Name = "panelCentral";
+            this.panelCentral.Size = new System.Drawing.Size(1606, 894);
+            this.panelCentral.TabIndex = 2;
+            // 
+            // menuContainer0
+            // 
+            this.menuContainer0.Controls.Add(this.panel28);
+            this.menuContainer0.Controls.Add(this.panel29);
+            this.menuContainer0.Controls.Add(this.panel30);
+            this.menuContainer0.Location = new System.Drawing.Point(0, 0);
+            this.menuContainer0.Margin = new System.Windows.Forms.Padding(0);
+            this.menuContainer0.Name = "menuContainer0";
+            this.menuContainer0.Size = new System.Drawing.Size(301, 83);
+            this.menuContainer0.TabIndex = 11;
+            // 
+            // panel28
+            // 
+            this.panel28.Controls.Add(this.btnAtendimento);
+            this.panel28.Location = new System.Drawing.Point(0, 10);
+            this.panel28.Margin = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.panel28.Name = "panel28";
+            this.panel28.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel28.Size = new System.Drawing.Size(341, 70);
+            this.panel28.TabIndex = 4;
+            // 
+            // btnAtendimento
+            // 
+            this.btnAtendimento.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnAtendimento.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAtendimento.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtendimento.ForeColor = System.Drawing.Color.White;
+            this.btnAtendimento.Image = ((System.Drawing.Image)(resources.GetObject("btnAtendimento.Image")));
+            this.btnAtendimento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAtendimento.Location = new System.Drawing.Point(-1, 5);
+            this.btnAtendimento.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAtendimento.Name = "btnAtendimento";
+            this.btnAtendimento.Size = new System.Drawing.Size(286, 59);
+            this.btnAtendimento.TabIndex = 2;
+            this.btnAtendimento.Text = "                      Atendimento";
+            this.btnAtendimento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAtendimento.UseVisualStyleBackColor = false;
+            this.btnAtendimento.Click += new System.EventHandler(this.btnAtendimento_Click);
+            // 
+            // panel29
+            // 
+            this.panel29.Controls.Add(this.button2);
+            this.panel29.Location = new System.Drawing.Point(0, 85);
+            this.panel29.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel29.Name = "panel29";
+            this.panel29.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.panel29.Size = new System.Drawing.Size(341, 64);
+            this.panel29.TabIndex = 5;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(0, 1);
+            this.button2.Margin = new System.Windows.Forms.Padding(0, 0, 1, 1);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(297, 63);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "                      Pacientes";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // panel30
+            // 
+            this.panel30.Controls.Add(this.button5);
+            this.panel30.Location = new System.Drawing.Point(0, 157);
+            this.panel30.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
+            this.panel30.Name = "panel30";
+            this.panel30.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.panel30.Size = new System.Drawing.Size(341, 66);
+            this.panel30.TabIndex = 6;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(-1, 1);
+            this.button5.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(286, 64);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "                      Doutores";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // MenuForm2222
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(989, 962);
+            this.ClientSize = new System.Drawing.Size(1860, 962);
+            this.Controls.Add(this.panelCentral);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -1057,6 +1176,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.sidebar.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.menuContainer1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.menuContainer2.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.menuContainer3.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
@@ -1073,24 +1200,20 @@
             this.panel18.ResumeLayout(false);
             this.panel19.ResumeLayout(false);
             this.panel20.ResumeLayout(false);
+            this.menuContainer7.ResumeLayout(false);
+            this.panel25.ResumeLayout(false);
+            this.panel26.ResumeLayout(false);
+            this.panel27.ResumeLayout(false);
             this.menuContainer8.ResumeLayout(false);
             this.panel21.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
             this.panel23.ResumeLayout(false);
             this.menuContainer9.ResumeLayout(false);
             this.panel24.ResumeLayout(false);
-            this.menuContainer1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.menuContainer2.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.menuContainer7.ResumeLayout(false);
-            this.panel25.ResumeLayout(false);
-            this.panel26.ResumeLayout(false);
-            this.panel27.ResumeLayout(false);
+            this.menuContainer0.ResumeLayout(false);
+            this.panel28.ResumeLayout(false);
+            this.panel29.ResumeLayout(false);
+            this.panel30.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1102,7 +1225,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox btnFecharMenu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel sidebar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Timer MenuTransitionClinica;
         private System.Windows.Forms.Timer sidebarTransition;
@@ -1147,7 +1270,7 @@
         private System.Windows.Forms.Timer MenuTransitionPacientesDoutores;
         private System.Windows.Forms.Timer MenuTransitionFarmaciaMedicamentos;
         private System.Windows.Forms.Timer MenuTransitionFinancas;
-        private System.Windows.Forms.Timer AindaSemFuncao;
+        private System.Windows.Forms.Timer MenuTransitionAtendimento;
         private System.Windows.Forms.Timer MenuTransitionDefinicoes;
         private System.Windows.Forms.Timer MenuOperacoesMobilidade;
         private System.Windows.Forms.FlowLayoutPanel menuContainer1;
@@ -1161,9 +1284,9 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button btnPacientesDoutores;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnpacientes;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btndoutores;
         private System.Windows.Forms.FlowLayoutPanel menuContainer7;
         private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.Button button7;
@@ -1171,5 +1294,13 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Panel panel27;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Panel panelCentral;
+        private System.Windows.Forms.FlowLayoutPanel menuContainer0;
+        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.Button btnAtendimento;
+        private System.Windows.Forms.Panel panel29;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel30;
+        private System.Windows.Forms.Button button5;
     }
 }

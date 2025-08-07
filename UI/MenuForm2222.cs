@@ -6,6 +6,7 @@ namespace Hospital97.UI
     public partial class MenuForm2222 : Form
     {
         // Flags de expansão por menu
+        bool menuAtendimentoExpand = false;
         bool menuClinicaExpand = false;
         bool menuPacMedExpand = false;
         bool menuFarmExpand = false;
@@ -70,10 +71,14 @@ namespace Hospital97.UI
             this.Close();
         }
 
+        private void btnAtendimento_Click(object sender, EventArgs e)
+        {
+            AnimarMenu(menuContainer0, MenuTransitionAtendimento, ref menuAtendimentoExpand);
+        }
 
         private void btnClinica_Click(object sender, EventArgs e)
         {
-            AnimarMenu(menuContainer1, MenuTransitionClinica, ref menuClinicaExpand);
+            AnimarMenu(menuContainer1, MenuTransitionClinica, ref menuClinicaExpand);           
         }
 
         private void btnPacientesDoutores_Click(object sender, EventArgs e)
@@ -161,12 +166,42 @@ namespace Hospital97.UI
             }
         }
 
+        private void AbrirFormularioInterno(Form formulario)
+        {
+            formulario.TopLevel = false;
+            formulario.FormBorderStyle = FormBorderStyle.None;
+            formulario.Dock = DockStyle.Fill;
+
+            panelCentral.Controls.Clear();
+            panelCentral.Controls.Add(formulario);
+            formulario.Show();
+        }
+
+
         private void button22_Click(object sender, EventArgs e)
         {
             this.Hide();
             LoginForm sair = new LoginForm();
             sair.Show();
         }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            AnimarMenu(menuContainer1, MenuTransitionClinica, ref menuClinicaExpand);
+            AbrirFormularioInterno(new MenuForm());
+        }
+
+        private void btnpacientes_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioInterno(new LoginForm());
+        }
+
+        private void btndoutores_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioInterno(new ClinicaForm());
+        }
+
+        
     }
 }
 
