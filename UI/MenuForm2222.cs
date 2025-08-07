@@ -200,7 +200,10 @@ namespace Hospital97.UI
             AbrirFormularioInterno(new ClinicaForm());
         }
 
-        
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
 
